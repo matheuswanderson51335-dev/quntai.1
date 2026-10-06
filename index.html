@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quintal | Cozinha & Bar</title>
+
+    <meta name="description" content="Quintal - Cozinha & Bar. Sabores, drinks e bons momentos em São Domingos do Maranhão.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Ícones -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         MENU
+    ========================== -->
+
+    <header class="header">
+
+        <a href="#inicio" class="logo">
+            QUINTAL
+            <span>COZINHA & BAR</span>
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#localizacao">Localização</a>
+        </nav>
+
+        <a class="btn-header"
+           href="https://wa.me/5599999999999"
+           target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+            Pedir agora
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <!-- FOTO 01
+                 COLOQUE AQUI A FOTO PRINCIPAL
+                 Caminho: imagens/principal.jpg
+            -->
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    SABOR • BRASA • BONS MOMENTOS
+                </p>
+
+                <h1>
+                    Seu lugar para<br>
+                    <span>comer bem.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Um espaço para reunir pessoas, experimentar bons sabores
+                    e aproveitar cada momento.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#cardapio" class="btn-primary">
+                        Ver cardápio
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="https://wa.me/5599999999999"
+                       target="_blank"
+                       class="btn-outline">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Fazer pedido
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="scroll">
+                <span>ROLE PARA BAIXO</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DESTAQUES
+        ========================== -->
+
+        <section class="highlights">
+
+            <div class="highlight">
+
+                <i class="fa-solid fa-utensils"></i>
+
+                <div>
+                    <h3>Boa comida</h3>
+                    <p>Sabores preparados para você.</p>
+                </div>
+
+            </div>
+
+
+            <div class="highlight">
+
+                <i class="fa-solid fa-martini-glass-citrus"></i>
+
+                <div>
+                    <h3>Drinks</h3>
+                    <p>Opções para acompanhar seu momento.</p>
+                </div>
+
+            </div>
+
+
+            <div class="highlight">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <div>
+                    <h3>Venha nos visitar</h3>
+                    <p>São Domingos do Maranhão.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOBRE
+        ========================== -->
+
+        <section class="about section" id="sobre">
+
+            <div class="about-image">
+
+                <!-- FOTO 02
+                     COLOQUE AQUI UMA FOTO BONITA
+                     DO AMBIENTE DO RESTAURANTE
+                -->
+
+                <img src="imagens/ambiente.jpg"
+                     alt="Ambiente do Quintal">
+
+                <div class="experience">
+                    <strong>QUINTAL</strong>
+                    <span>COZINHA & BAR</span>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="section-label">SOBRE O QUINTAL</p>
+
+                <h2>
+                    Um lugar para
+                    <span>ficar.</span>
+                </h2>
+
+                <p>
+                    No Quintal, a experiência vai além da comida.
+                    É um espaço para reunir amigos, família e aproveitar
+                    bons momentos.
+                </p>
+
+                <p>
+                    Com pratos saborosos, bebidas e um ambiente agradável,
+                    queremos fazer parte daqueles momentos que merecem
+                    ser lembrados.
+                </p>
+
+                <a href="#localizacao" class="text-link">
+                    Venha conhecer
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CARDÁPIO
+        ========================== -->
+
+        <section class="menu-section section" id="cardapio">
+
+            <div class="section-heading">
+
+                <p class="section-label">NOSSO CARDÁPIO</p>
+
+                <h2>
+                    Escolha seu
+                    <span>favorito.</span>
+                </h2>
+
+                <p>
+                    Algumas opções para você conhecer.
+                </p>
+
+            </div>
+
+
+            <!-- CATEGORIAS -->
+
+            <div class="categories">
+
+                <button class="category active"
+                        data-category="todos">
+                    Todos
+                </button>
+
+                <button class="category"
+                        data-category="pratos">
+                    Pratos
+                </button>
+
+                <button class="category"
+                        data-category="porcoes">
+                    Porções
+                </button>
+
+                <button class="category"
+                        data-category="drinks">
+                    Drinks
+                </button>
+
+                <button class="category"
+                        data-category="bebidas">
+                    Bebidas
+                </button>
+
+            </div>
+
+
+            <div class="menu-grid">
+
+
+                <!-- ITEM 01 -->
+
+                <article class="menu-card"
+                         data-category="pratos">
+
+                    <!-- FOTO 03
+                         FOTO DO PRATO 01
+                    -->
+
+                    <div class="menu-image">
+
+                        <img src="imagens/prato-01.jpg"
+                             alt="Prato do Quintal">
+
+                        <span class="tag">DESTAQUE</span>
+
+                    </div>
+
+                    <div class="menu-info">
+
+                        <div>
+                            <h3>Nome do prato</h3>
+
+                            <p>
+                                Descrição curta do prato.
+                            </p>
+                        </div>
+
+                        <strong>
+                            R$ 00,00
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ITEM 02 -->
+
+                <article class="menu-card"
+                         data-category="pratos">
+
+                    <!-- FOTO 04
+                         FOTO DO PRATO 02
+                    -->
+
+                    <div class="menu-image">
+
+                        <img src="imagens/prato-02.jpg"
+                             alt="Prato do Quintal">
+
+                    </div>
+
+                    <div class="menu-info">
+
+                        <div>
+                            <h3>Nome do prato</h3>
+
+                            <p>
+                                Descrição curta do prato.
+                            </p>
+                        </div>
+
+                        <strong>
+                            R$ 00,00
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ITEM 03 -->
+
+                <article class="menu-card"
+                         data-category="porcoes">
+
+                    <!-- FOTO 05
+                         FOTO DA PORÇÃO
+                    -->
+
+                    <div class="menu-image">
+
+                        <img src="imagens/prato-03.jpg"
+                             alt="Porção do Quintal">
+
+                    </div>
+
+                    <div class="menu-info">
+
+                        <div>
+                            <h3>Nome da porção</h3>
+
+                            <p>
+                                Descrição curta da porção.
+                            </p>
+                        </div>
+
+                        <strong>
+                            R$ 00,00
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ITEM 04 -->
+
+                <article class="menu-card"
+                         data-category="drinks">
+
+                    <!-- FOTO 06
+                         FOTO DO DRINK 01
+                    -->
+
+                    <div class="menu-image">
+
+                        <img src="imagens/drink-01.jpg"
+                             alt="Drink do Quintal">
+
+                    </div>
+
+                    <div class="menu-info">
+
+                        <div>
+                            <h3>Nome do drink</h3>
+
+                            <p>
+                                Descrição curta do drink.
+                            </p>
+                        </div>
+
+                        <strong>
+                            R$ 00,00
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ITEM 05 -->
+
+                <article class="menu-card"
+                         data-category="drinks">
+
+                    <!-- FOTO 07
+                         FOTO DO DRINK 02
+                    -->
+
+                    <div class="menu-image">
+
+                        <img src="imagens/drink-02.jpg"
+                             alt="Drink do Quintal">
+
+                    </div>
+
+                    <div class="menu-info">
+
+                        <div>
+                            <h3>Nome do drink</h3>
+
+                            <p>
+                                Descrição curta do drink.
+                            </p>
+                        </div>
+
+                        <strong>
+                            R$ 00,00
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <div class="menu-button">
+
+                <a href="https://wa.me/5599999999999"
+                   target="_blank"
+                   class="btn-primary">
+
+                    Ver cardápio completo
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GALERIA
+        ========================== -->
+
+        <section class="gallery section" id="galeria">
+
+            <div class="section-heading">
+
+                <p class="section-label">UM POUCO DO QUINTAL</p>
+
+                <h2>
+                    Veja nosso
+                    <span>ambiente.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+
+                <!-- FOTO 08 -->
+
+                <div class="gallery-item big">
+
+                    <img src="imagens/ambiente.jpg"
+                         alt="Ambiente do Quintal">
+
+                    <div class="gallery-caption">
+                        <span>01</span>
+                        <p>Nosso ambiente</p>
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO 09 -->
+
+                <div class="gallery-item">
+
+                    <img src="imagens/prato-01.jpg"
+                         alt="Comida do Quintal">
+
+                    <div class="gallery-caption">
+                        <span>02</span>
+                        <p>Nossos sabores</p>
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO 10 -->
+
+                <div class="gallery-item">
+
+                    <img src="imagens/drink-01.jpg"
+                         alt="Drink do Quintal">
+
+                    <div class="gallery-caption">
+                        <span>03</span>
+                        <p>Drinks</p>
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO 11 -->
+
+                <div class="gallery-item">
+
+                    <img src="imagens/prato-02.jpg"
+                         alt="Prato do Quintal">
+
+                    <div class="gallery-caption">
+                        <span>04</span>
+                        <p>Sabores</p>
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO 12 -->
+
+                <div class="gallery-item">
+
+                    <img src="imagens/ambiente.jpg"
+                         alt="Quintal Cozinha e Bar">
+
+                    <div class="gallery-caption">
+                        <span>05</span>
+                        <p>Momentos</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="instagram">
+
+                <p>
+                    Acompanhe o Quintal
+                </p>
+
+                <a href="https://instagram.com/"
+                   target="_blank">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                    @instagram_do_quintal
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="cta">
+
+            <!-- FOTO 13
+                 FOTO BONITA DO RESTAURANTE
+            -->
+
+            <div class="cta-overlay"></div>
+
+            <div class="cta-content">
+
+                <p class="section-label">
+                    VAMOS COMER?
+                </p>
+
+                <h2>
+                    Seu próximo momento
+                    <span>começa aqui.</span>
+                </h2>
+
+                <p>
+                    Chame a gente pelo WhatsApp
+                    e faça seu pedido.
+                </p>
+
+                <a href="https://wa.me/5599999999999"
+                   target="_blank"
+                   class="btn-primary">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    Pedir pelo WhatsApp
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOCALIZAÇÃO
+        ========================== -->
+
+        <section class="location section"
+                 id="localizacao">
+
+            <div class="location-content">
+
+                <p class="section-label">
+                    ONDE ESTAMOS
+                </p>
+
+                <h2>
+                    Venha conhecer
+                    <span>o Quintal.</span>
+                </h2>
+
+                <p>
+                    Estamos esperando por você.
+                </p>
+
+
+                <div class="location-info">
+
+                    <div class="info-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <strong>Endereço</strong>
+
+                            <p>
+                                Orla da Lagoa<br>
+                                São Domingos do Maranhão - MA
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <div>
+                            <strong>Horário</strong>
+
+                            <p>
+                                Consulte nossos horários
+                                pelo WhatsApp.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <a href="https://www.google.com/maps/"
+                   target="_blank"
+                   class="btn-outline dark">
+
+                    <i class="fa-solid fa-location-arrow"></i>
+
+                    Abrir no Google Maps
+
+                </a>
+
+            </div>
+
+
+            <div class="map">
+
+                <!-- COLOQUE AQUI O IFRAME DO GOOGLE MAPS -->
+
+                <iframe
+                    src="https://www.google.com/maps?q=São%20Domingos%20do%20Maranhão&output=embed"
+                    loading="lazy">
+                </iframe>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="#inicio" class="logo">
+                    QUINTAL
+                    <span>COZINHA & BAR</span>
+                </a>
+
+                <p>
+                    Sabor, bons momentos
+                    e um lugar para chamar de seu.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>NAVEGAÇÃO</h4>
+
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#localizacao">Localização</a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h4>CONTATO</h4>
+
+                <a href="https://wa.me/5599999999999"
+                   target="_blank">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    WhatsApp
+
+                </a>
+
+                <a href="https://instagram.com/"
+                   target="_blank">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                    Instagram
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span>
+                Quintal • Cozinha & Bar
+            </p>
+
+            <p>
+                Desenvolvido por você
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BOTÃO FLUTUANTE -->
+
+    <a href="https://wa.me/5599999999999"
+       class="whatsapp-float"
+       target="_blank"
+       aria-label="WhatsApp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+    <script src="script.js">
+        // ================================
+// MENU MOBILE
+// ================================
+
+const menuBtn = document.getElementById("menuBtn");
+const nav = document.getElementById("nav");
+
+menuBtn.addEventListener("click", () => {
+
+    nav.classList.toggle("active");
+
+});
+
+
+// Fecha o menu ao clicar em algum link
+
+document.querySelectorAll(".nav a").forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        nav.classList.remove("active");
+
+    });
+
+});
+
+
+// ================================
+// HEADER AO ROLAR
+// ================================
+
+const header = document.querySelector(".header");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 50) {
+
+        header.classList.add("scrolled");
+
+    } else {
+
+        header.classList.remove("scrolled");
+
+    }
+
+});
+
+
+// ================================
+// FILTRO DO CARDÁPIO
+// ================================
+
+const categories = document.querySelectorAll(".category");
+const menuCards = document.querySelectorAll(".menu-card");
+
+categories.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        // remove active
+
+        categories.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        // adiciona active
+
+        button.classList.add("active");
+
+        const category = button.dataset.category;
+
+
+        menuCards.forEach(card => {
+
+            if (
+                category === "todos" ||
+                card.dataset.category === category
+            ) {
+
+                card.classList.remove("hidden");
+
+            } else {
+
+                card.classList.add("hidden");
+
+            }
+
+        });
+
+    });
+
+});
+
+
+// ================================
+// ANO AUTOMÁTICO
+// ================================
+
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+    </script>
+
+</body>
+</html>
